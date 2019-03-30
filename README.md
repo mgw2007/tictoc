@@ -3,7 +3,7 @@
 For Run the app
 
 Run 
-> chmod 777 -R var/
+> chmod 775 -R var/
 > composer install
 
 for Run
