@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}My cool blog posts{% endblock %}
+
+{% block body %}
+    <h1>Tic Tac Toe</h1>
+    <div class="game">
+        {% for x in range(0, 2) %}
+            {% for y in range(0, 2) %}
+                <div class="square"
+                     id="square_{{ x }}_{{ y }}"
+                     data-x="{{ x }}"
+                     data-y="{{ y }}"
+                ></div>
+            {% endfor %}
+            <div class="clear"></div>
+        {% endfor %}
+    </div>
+    <h1 id="result">
+
+    </h1>
+{% endblock %}

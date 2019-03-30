@@ -1,0 +1,7 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+play:
+    path: /play
+    methods: POST
+    controller: App\Controller\DefaultController::play
