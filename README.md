@@ -12,6 +12,7 @@ you have two way
 First using symfony server
 
 > chmod 775 -R var/
+
 > composer install
 
 for Run
